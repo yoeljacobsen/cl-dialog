@@ -1,7 +1,7 @@
 # cl-dialog
-### _Your Name <your.name@example.com>_
+### Yoel Jacobsen <yoel.jacobsen@gmail.com>
 
-This is a project to do ... something.
+Simple binding for libdialog
 
 ## License
 

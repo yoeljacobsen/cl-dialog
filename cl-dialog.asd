@@ -6,5 +6,8 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
+  :depends-on (:cffi)
   :components ((:file "package")
-               (:file "cl-dialog")))
+               (:file "cl-dialog")
+               (:file "init")
+               (:file "widgets")))

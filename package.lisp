@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:cl-dialog
-  (:use #:cl))
+  (:use #:cl #:cffi))

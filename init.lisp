@@ -6,8 +6,6 @@
   (stdout :pointer))
 
 (defun dialog-init ()
-  (let ((stdin  (foreign-symbol-pointer "stdin"))
-        (stdout (foreign-symbol-pointer "stdout")))
-    (init-dialog stdin stdout)))
+    (init-dialog (get-stdin) (get-stdout)))
 
 (defcfun "end_dialog" :void)

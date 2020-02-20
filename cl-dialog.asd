@@ -9,5 +9,6 @@
   :depends-on (:cffi)
   :components ((:file "package")
                (:file "cl-dialog")
+               (:file "getstd")
                (:file "init")
                (:file "widgets")))

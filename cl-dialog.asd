@@ -11,4 +11,5 @@
                (:file "cl-dialog")
                (:file "getstd")
                (:file "init")
-               (:file "widgets")))
+               (:file "widgets")
+               (:file "tests")))
